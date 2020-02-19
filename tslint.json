@@ -17,15 +17,17 @@
     "readonly-array": true,
     "no-let": true,
     "no-object-mutation": true,
+    "no-var-requires": false,
     "no-delete": true,
     "no-method-signature": true,
 
     // Functional style rules
     "no-this": true,
     "no-class": true,
+    "no-console": false,
     "no-mixed-interface": true,
     "no-expression-statement": [
-      true,
+      false,
       { "ignore-prefix": ["console.", "process.exit"] }
     ],
     "no-if-statement": true
