@@ -1,5 +1,5 @@
 {
-  "name"        : "CUP Online Judge Express",
+  "name"        : "CUP Online Judge Webhook Service",
   "script"      : "./build/main/index.js",
   "exec_mode"   : "fork",
   "cwd"         : "./",
